@@ -56,7 +56,7 @@
 //------------------------------------------------
 // find the unique value in array with method
 //const arr1 = ['a', 'b', 'c', 'b', 'c', 'a', 'a'];
-//const arr2 = ['b', 'a', 'c', 'a', 'b', 'b', 'c'];
+// const arr3 = [...new Set(arr1)];
 
 
 //------------------------------------------------
