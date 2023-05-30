@@ -53,7 +53,13 @@
 // console.log(newElm);
 
 //finding ascending and descending in array
+//------------------------------------------------
+// find the unique value in array with method
+//const arr1 = ['a', 'b', 'c', 'b', 'c', 'a', 'a'];
+//const arr2 = ['b', 'a', 'c', 'a', 'b', 'b', 'c'];
 
+
+//------------------------------------------------
 // const arr = [1,9,3,6,8,10,2,7,16,13];
 // arr.sort((a, b) => a - b);
 // console.log(arr);
