@@ -658,17 +658,24 @@
 //     }
 //   }
 //  }
+//----------------------------------------
+// let arr= [1,2,4,6,1,6,3,1,9,8];
+// let count = [];
 
-let arr= [1,2,4,6,1,6,3,1,9,8];
-let count = [];
+// for (let i = 0;  i < arr.length; i++) {
+//     let num = arr[i];
+//     if (count[num]) {
+//       count[num] += 1;
+//     }else{
+//       count[num] = 1;
+//     }
+// }
+// console.log(count);
+//-------------------------------------------
+// how to convert two arrays to an array of object
+const keys = ["name", "born"];
+const value = ["hassan","1997"];
 
-for (let i = 0;  i < arr.length; i++) {
-    let num = arr[i];
-    if (count[num]) {
-      count[num] += 1;
-    }else{
-      count[num] = 1;
-    }
-}
-console.log(count);
+const print = value.map((value, i) =>
+ ({[keys[i]]: value}))
 
