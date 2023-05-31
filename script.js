@@ -678,4 +678,5 @@ const value = ["hassan","1997"];
 
 const print = value.map((value, i) =>
  ({[keys[i]]: value}))
+console.log()
 
