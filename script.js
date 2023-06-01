@@ -1,4 +1,4 @@
-find the missing element in array
+// find the missing element in array
 const arr = [5,7,9,11,15,17];
  
 const missArrElm = (arr) => {
@@ -187,7 +187,7 @@ const seclargest = newsort[newsort.length - 2];
 console.log(seclargest);
 
 ----------------------------------------
-find the array length without length method..
+// find the array length without length method..
 let arr = [1,4,7,3,4,2];
 
 let myfunc = (arr) => {
@@ -200,21 +200,21 @@ let myfunc = (arr) => {
    };
 console.log(myfunc(arr));
  --------------------------------------------
-find the avgerage in array..
+// find the avgerage in array..
 //with reduce
  const arr =[4,7,12,4,2];
-//  const sum = arr.reduce((acc,value) => {
-//    return  acc + value;
-//  })
-//  console.log(sum/arr.length);
-// //------- without reduce
+ const sum = arr.reduce((acc,value) => {
+   return  acc + value;
+ })
+ console.log(sum/arr.length);
+//------- without reduce
 let sumval = 0;
 for (let index = 0; index < arr.length; index++) {
-    // sumval += arr[index];
+    sumval += arr[index];
 }
 console.log(sumval);
 ----------------------------------------
-find the even/odd number in array..
+// find the even/odd number in array..
 const arr = [1,2,3,4,5,6];
 let evenArr = [];
 let oddArr = [];
