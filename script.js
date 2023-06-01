@@ -146,7 +146,7 @@ console.log( a == b );
 
 console.log( a === b);
 ------------------------------------
-Shuffling array
+// Shuffling array
 
 const list = [5,2,3,6,1,4];
 console.log(list.sort(() => {
@@ -236,7 +236,7 @@ for (let i = arr.length; i > 0 ; i--) {
 }
  console.log(reverseArr);
 ----------------
-reverse string without method
+// reverse string without method
 const string = 'greeting';
 let reverse = '';
 
@@ -264,7 +264,7 @@ for (let i = 0; i < string.length; i++) {
 }
 console.log(count);
 ---------------------------------------------------
-find factorial number-----
+// find factorial number-----
 let user = prompt('enter any number for foctoial');
 let fact = 1;
  if (user < 0) {
@@ -285,16 +285,16 @@ star--------
 
 for (let i = 0; i < 5; i++) {
     var str = '';
-    // // for (let j = 5; j > i; j--) {
-    // //     str += '-';
-    // // }
-    // // for (let k = 0; k <= i ; k++) {
-    // //     str += '*';
-    // // }
-    // for (let n = 1; n <= i; n++) {
-    //     str += '*';  
+    for (let j = 5; j > i; j--) {
+        str += '-';
+    }
+    for (let k = 0; k <= i ; k++) {
+        str += '*';
+    }
+    for (let n = 1; n <= i; n++) {
+        str += '*';  
         
-    // }
+    }
     console.log(str);
     
 }
@@ -315,7 +315,7 @@ for (let i = 5; i >= 0; i--) {
 
 
 -------------------------------------
-find intersection.......
+// find intersection.......
 const arr1 = [1,2,4,5,7,4,5,3,4];
 const arr2 = [2,4,6,5,3,];
 
@@ -386,7 +386,7 @@ let fun1 = (a,b) =>{
 }
 console.log(setTimeout(fun1(5,4),2000));
 ----------------------------------
-Rest Operator.....
+// Rest Operator.....
 function sum(...a){
     let count = 0;
     for (let i = 0; i < a.length; i++) {
@@ -422,10 +422,10 @@ function outerFun(x){
 let innerFun = outerFun(5);
 console.log(innerFun(6));
 --------------------------------------------
-Not reuseability Normal Fuction thats why call and apply introduce..
-when we use call method object with function attachment then any type of parameters pass..
-when we use apply method object with function attachment then only array  parameters pass..
-The call, bind and apply methods can be used to set the this keyword independent of how a function is called.The bind method creates a copy of the function and sets the this keyword, while the call and apply methods sets the this keyword and calls the function immediately.
+// Not reuseability Normal Fuction thats why call and apply introduce..
+// when we use call method object with function attachment then any type of parameters pass..
+// when we use apply method object with function attachment then only array  parameters pass..
+// The call, bind and apply methods can be used to set the this keyword independent of how a function is called.The bind method creates a copy of the function and sets the this keyword, while the call and apply methods sets the this keyword and calls the function immediately.
 
 let obj1 = {
     fname: "hassan",
@@ -487,9 +487,9 @@ let user1 = {
     birth: 2000,
     getBirth : user.getBirth
 }
-    // user1.__proto__= user;
+    user1.__proto__= user;
 console.log(user1.getBirth());
-// console.log(user1);
+console.log(user1);
 
  
 
@@ -497,7 +497,7 @@ my own prototype..
 Object.prototype.myApp = function getAge(){
         let age = new Date().getFullYear() - this.birth;
         return age;
-//     //  }
+     }
    let  user3 = {
    nameFun: function(){
               return `${this.fname},${this.lname}`
@@ -509,12 +509,12 @@ let user1 = {
     birth: 1998,
 }
 
-// let user2 = {
-//     fname: 'hassan',
-//     lname:'qadir',
-//     birth: 1997,
+let user2 = {
+    fname: 'hassan',
+    lname:'qadir',
+    birth: 1997,
     
-// }
+}
  
  user1.__proto__ = user3;
 console.log(user1.nameFun());
