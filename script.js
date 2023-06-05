@@ -148,7 +148,7 @@ console.log( a === b);
 ------------------------------------
 // Shuffling array
 
-const list = [5,2,3,6,1,4];
+const list = [5,2,3,6,1,8];
 console.log(list.sort(() => {
 const random = Math.random();
 return random - 0.5; 
