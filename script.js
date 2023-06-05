@@ -40,7 +40,7 @@ console.log(count);
 
 ----------------------------------------------
 // find  the unique value in array
-const arr = ['a', 'b','c','b','c','a','a'];
+const arr = ['a', 'b','c','b','c','a'];
 
 const newElm = [];
 
