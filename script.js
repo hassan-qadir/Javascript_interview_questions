@@ -411,7 +411,7 @@ let obj = [
  }
  console.log(obj2);
 -------------------------------
-//higher order function and clouser..
+// 16 higher order function and clouser..
 function outerFun(x){
   
     let innerFun = (y) => {
@@ -595,7 +595,7 @@ function shape3(){
       console.log('body');  
 }
 ----------------------------------------
-//Merging without subread Operator
+// 17 Merging without subread Operator
 let arr1 = [2,4,6,8,9,15,45,76,32];
 let arr2 = [6,7,3,9,10,15];
 let arr3 = [];
@@ -609,7 +609,7 @@ for (let i = 0; i < arr2.length; i++) {
 }
     console.log(arr3);
 -----------------------------------------
-Remove amy element in array 
+// 18 Remove amy element in array 
 let arr = [1,3,4,5,6,7,8,9];
 let postion = 4;
 for (let i = postion; i < arr.length - 1; i++ ) {
@@ -618,7 +618,7 @@ for (let i = postion; i < arr.length - 1; i++ ) {
 arr.length = arr.length - 1;
 console.log(arr);
   -------------------------------      
-insert array without subred operator
+// 19 insert array without subred operator
 let arr = [1,3,5,7,8,9,];
 let postion = 2;
 let newElm = 6;
@@ -671,7 +671,7 @@ for (let i = 0;  i < arr.length; i++) {
 }
 console.log(count);
 -------------------------------------------
-how to convert two arrays to an array of object
+// 20 how to convert two arrays to an array of object
 const keys = ["name", "born"];
 const value = ["hassan","1997"];
 
