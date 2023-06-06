@@ -180,14 +180,14 @@ for (const name of employe) {
     console.log(name.emp);
 }      
 -------------------------------------------
-// find the second largest num in array...
+// 9 find the second largest num in array...
 const input = [1,3,-2,7,5,1];
 const newsort = [...new Set(input)].sort((a,b) => a - b);
 const seclargest = newsort[newsort.length - 2];
 console.log(seclargest);
 
 ----------------------------------------
-// find the array length without length method..
+// 10 find the array length without length method..
 let arr = [1,4,7,3,4,2];
 
 let myfunc = (arr) => {
@@ -200,7 +200,7 @@ let myfunc = (arr) => {
    };
 console.log(myfunc(arr));
  --------------------------------------------
-// find the avgerage in array..
+// 11 find the avgerage in array..
 //with reduce
  const arr =[4,7,12,4,2];
  const sum = arr.reduce((acc,value) => {
@@ -214,7 +214,7 @@ for (let index = 0; index < arr.length; index++) {
 }
 console.log(sumval);
 ----------------------------------------
-// find the even/odd number in array..
+// 12 find the even/odd number in array..
 const arr = [1,2,3,4,5,6];
 let evenArr = [];
 let oddArr = [];
@@ -228,7 +228,7 @@ const even_odd  =   arr.map((element) =>{
     console.log(`${evenArr} this is even`);
     console.log(`${oddArr} this is odd`);
 -----------------------------------------------
-//reverse array without method..
+// 12 reverse array without method..
 const arr = [1,2,3,4,5];
 let reverseArr = [];
 for (let i = arr.length; i > 0 ; i--) {
@@ -236,7 +236,7 @@ for (let i = arr.length; i > 0 ; i--) {
 }
  console.log(reverseArr);
 ----------------
-// reverse string without method
+// 13 reverse string without method
 const string = 'greeting';
 let reverse = '';
 
@@ -264,7 +264,7 @@ for (let i = 0; i < string.length; i++) {
 }
 console.log(count);
 ---------------------------------------------------
-// find factorial number-----
+// 14  find factorial number-----
 let user = prompt('enter any number for foctoial');
 let fact = 1;
  if (user < 0) {
@@ -315,7 +315,7 @@ for (let i = 5; i >= 0; i--) {
 
 
 -------------------------------------
-// find intersection.......
+// 15 find intersection.......
 const arr1 = [1,2,4,5,7,4,5,3,4];
 const arr2 = [2,4,6,5,3,];
 
