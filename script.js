@@ -1,4 +1,4 @@
-// find the missing element in array
+// 1 find the missing element in array
 const arr = [5,7,9,11,15,17];
  
 const missArrElm = (arr) => {
@@ -15,7 +15,7 @@ const lastElm = arr.slice(-1)
 };
 console.log(missArrElm(arr));
 -----------------------------------------
-// find how many repeated element in array
+// 2 find how many repeated element in array
 const arr = [1,2,1,1,1];
 
 const howMnyTime = arr.reduce((acc, item) => {
@@ -25,7 +25,7 @@ const howMnyTime = arr.reduce((acc, item) => {
 
 console.log(howMnyTime);
 --------------------------------------------
-//find the repeted without method
+// 3 find the repeted without method
 const arr = [1,4,5,1,1,2,1,4,4];
 let count = {};
 for (let i = 0; i < arr.length; i++) {
@@ -39,7 +39,7 @@ for (let i = 0; i < arr.length; i++) {
 console.log(count);
 
 ----------------------------------------------
-// find  the unique value in array
+// 4 find  the unique value in array
 const arr = ['a', 'b','c','b','c','a'];
 
 const newElm = [];
