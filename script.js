@@ -51,12 +51,12 @@ arr.forEach(element => {
 });
 console.log(newElm);
 ------------------------------------------
-// find the unique value in array with method
+// 5 find the unique value in array with method
 const arr1 = ['a', 'b', 'c', 'b', 'c', 'a', 'a'];
 const arr3 = [...new Set(arr1)];
 console.log(arr3);
 ----------------------------------------
-// finding ascending and descending in array
+// 6 finding ascending and descending in array
 const arr = [1,9,3,6,8,10,2,7,16,13];
 arr.sort((a, b) => a - b);
 console.log(arr);
@@ -146,7 +146,7 @@ console.log( a == b );
 
 console.log( a === b);
 ------------------------------------
-// Shuffling array
+// 7 Shuffling array
 
 const list = [5,2,3,6,1,8];
 console.log(list.sort(() => {
@@ -158,7 +158,7 @@ const arr = [1,2,3,5,4,6];
 const num = Math.trunc(Math.random() * 6);
 console.log(arr[num]);
 ------------------------------------------------
-sort array in object
+// 8 sort array in object
 
 let employee = [
     {id: 1, emp : 'malik', dep: 'it'},
