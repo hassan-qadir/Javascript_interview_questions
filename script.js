@@ -84,7 +84,7 @@ getList.addEventListener('dblclick', function (event) {
   event.target.remove();
 })
 
-const arr = [1,5,9,25,16,14,21,60,20,19,72,76,64,85];
+let arr = [1,5,9,25,16,14,21,60,20,19,72,76,64,85];
 const secondHigh = arr.sort((a,b) => a-b).reverse()
 
 
