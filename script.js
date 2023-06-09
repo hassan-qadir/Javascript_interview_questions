@@ -26,7 +26,7 @@ const howMnyTime = arr.reduce((acc, item) => {
 console.log(howMnyTime);
 --------------------------------------------
 // 3 find the repeted without method
-const arr = [1,4,5,1,1,2,1,4,4];
+const arr = [1,4,5,1,1,2,1,4,4,1];
 let count = {};
 for (let i = 0; i < arr.length; i++) {
    var num = arr[i];
